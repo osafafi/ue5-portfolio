@@ -1,0 +1,112 @@
+# HireMe — Omar Safadi
+
+## 🎯 Project Vision
+
+A short, mind-bending, fun-first FPS experience in a beautiful environment. The game may not have a big purpose beyond exploration and interaction, but it should be enjoyable and technically polished. A solo project meant to showcase:
+
+- Gameplay feel
+- 3D aesthetic and shader work
+- Clean software architecture
+- High modularity
+- Player immersion
+
+Goal: Publish for free on Steam with your name attached, something people will _remember and enjoy_.
+
+Target deadline: **December 2025**
+
+---
+
+## 🚀 Project Principles
+
+- **Single Responsibility + Pub/Sub Architecture**
+- **Minimal boilerplate**: add only when needed
+- **Reusability first**: tools, materials, assets, logic
+- **Safe assets**: free, CC0, or paid with licensing clarity
+- **Minimal animations**: leverage Mixamo & Blueprints
+- **Shader enhancement**: push beyond basic PBR
+- **Documentation-heavy**: proper structure & tracking
+
+---
+
+## 📁 Initial Folder Structure (example)
+
+```text
+/ProjectRoot
+├── Config/
+├── Content/
+│   ├── Assets/
+│   ├── Characters/
+│   ├── Environment/
+│   ├── UI/
+│   └── FX/
+├── Documentation/
+│   ├── README.md
+│   ├── Vision.md
+│   ├── Architecture.md
+│   └── TODO.md
+├── Plugins/
+├── Source/
+└── .gitignore
+```
+
+---
+
+## 🛠️ Technical Directions
+
+### Core Game Systems
+
+- FPS Controller (use base UE5, customize later)
+- Interactive Objects system via Blueprint Interfaces
+- Central `GameEventManager` (BP or C++ or hybrid)
+- Modular Gameplay Actor Components (e.g., Interact, Highlight, Animate)
+
+### UI/UX
+
+- Minimal, smooth and modern style
+- Use widget components or world-space UI
+- Include optional “narrative” bits: floating thoughts, hints, etc.
+
+### Shader Goals
+
+- Emissive decals
+- World-space UV effects
+- Minimalist post-process shaders
+- Outlines or screen space effects for visual feedback
+
+---
+
+## 🧰 Third Party & Tools
+
+- Mixamo (characters + simple idle/walk animations)
+- Quixel Megascans (free assets from Epic Games)
+- VSCode for:
+
+  - Source control
+  - Markdown docs
+
+- Possibly: Asset Manager plugins or Shader tools from Marketplace (safe license only)
+
+---
+
+## 📌 Steam Release Notes
+
+- Learn and document process to:
+
+  - Package for Windows
+  - Prepare a store page
+  - Ensure assets are license-compliant
+  - Handle game settings, input configs, README, and disclaimers
+
+---
+
+## ✅ Success Criteria
+
+- A playable, visually impressive, lightweight FPS demo
+- Solid code architecture that reflects your philosophy
+- Everything documented, with clear dev logs and commits
+- Uploaded for free on Steam, itch.io or similar
+- People finish the game and say: "That was actually fun. Who made this?"
+
+---
+
+**Let’s go Omar. One module at a time. One system at a time. By December 2025 — you’ll have built something timeless.**

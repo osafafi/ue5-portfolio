@@ -1,0 +1,73 @@
+# Unreal Engine 5
+# Ignore build, intermediate, and binary files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+*.xcconfig
+*.DS_Store
+*.idea/
+*.iml
+*.log
+*.tmp
+*.user
+*.userprefs
+*.db
+*.opendb
+*.local
+*.pdb
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.sbr
+*.sdf
+*.cache
+*.vs/
+*.swp
+*.bak
+*.orig
+*.rej
+*.gz
+*.zip
+*.tar
+*.rar
+*.7z
+
+# Ignore Mac specific files
+.DS_Store
+
+# Ignore Linux specific files
+*.swp
+
+# Ignore Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore crash reports
+CrashReportClient/
+
+# Ignore config files that should not be versioned
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEngine.ini
+Config/DefaultGame.ini
+Config/DefaultInput.ini
+Config/DefaultLightmass.ini
+Config/DefaultScalability.ini
+Config/DefaultServer.ini
+Config/DefaultEditorLayout.ini
+
+# Ignore plugin intermediates
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
