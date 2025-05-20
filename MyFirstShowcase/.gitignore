@@ -71,3 +71,11 @@ Config/DefaultEditorLayout.ini
 # Ignore plugin intermediates
 Plugins/*/Intermediate/
 Plugins/*/Binaries/
+
+
+# Ignore starter kit and plugins
+Content/FirstPerson
+Content/FirstPersonArms
+Content/FPWeapon
+Content/JapaneseSchool
+Content/LevelPrototyping
